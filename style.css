@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
+body {
+    background: #efefef;
+    font: 18px "Times New Roman", serif;
+}
+
+.wraper {
+    width: 515px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 4px 1px rgb(207, 207, 207);
+}
+
+.container {
+    padding: 55px 50px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+.logo {
+    width: 50%;
+}
+
+header,
+footer,
+.reasons,
+.logo {
+    padding: 30px 15px 20px;
+}
+
+.reasons li {
+    padding-top: 15px
+}
+
+footer,
+.reasons {
+    border-top: 1px solid #000;
+}
+
+.social-media {
+    padding-top: 40px;
+}
+
+.social-media a {
+    display: block;
+}
+
+.social-media a,
+.phone-number {
+    padding-top: 15px;
+}
